@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" media="screen" type="text/css">
+    <link rel="icon" href="favicon.jpg" type="image/jpg">
+    <link href="https://fonts.googleapis.com/css2?family=Goudy+Bookletter+1911&family=Raleway:wght@600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c0bb1150f1.js" crossorigin="anonymous"></script>
+    <title>OrderEat</title>
+</head>
+<body>
+    <header>
+        <h1 class="logo">OrderEat</h1>
+        <ul id="links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#contact">Contact</a></li>
+        </ul>
+        <a href="javascript:void(0);" class="hamburger" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+    </header>
+    <div class="container1">
+        <div class="text">
+            <h1 class="order">Get your meals at your convenience when you <span class="one">OrderEat</span>  </h1>
+        </div>
+        <div class="image"><img src="restaurant.jpg" alt="phone-screen" class="desktop-image"></div>
+    </div>
+
+
+    <section id="about">
+    <div class="container2">
+        <div class="pic"><img src="phone-screen.png" alt="phone-screen" class="mobile-image"></div>
+        <div class="text">
+            <p><span class="two">OrderEat</span>  is an online delivery platform that promotes fast and effective delivery of food across Lagos and it's environs. </p>
+            <p>It enables you to connect to your favourite restaurants at your convenience or even those times when you are stressed or too busy to pickup a meal.</p>
+            <p>Download our app to gain access to our rich features and services.</p>
+            <div class="app">
+                <a href="https://play.google.com/store/apps/details?id=com.mahart.ordereat"><img src="google-play-badge.svg" alt="google-img" class="app-img"></a>   
+                <a href=""><img src="app-store-badge.svg" alt="apple" class="app-img"></a>
+            </div>
+        </div>
+        <div class="image"><img src="phone-screen.png" alt="phone-screen" class="desktop-image"></div>
+    </div>
+    </section>
+    <section id="testimonials">
+        <h2>Testimonials</h2>
+        <div class="container3">
+            
+            <div class="people">
+                <p class="people-text">I love the quick delivery and effective management.</p>
+                <p class="name">Kodi</p>
+            </div>
+            <div class="people">
+                <p class="people-text">It allows me order food from any restaurant of my choice.</p>
+                <p class="name">David</p>
+            </div>
+            <div class="people">
+                <p class="people-text">The food tastes better when you OrderEat, absolutely love it.</p>
+                <p class="name">Geek</p>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h1 class="footer-logo">OrderEat</h1>
+        <div class="container4">
+            <div class="lorem">
+                <div class="icons">
+                    <div><i class="location"><img src="./images/icon-location.svg" alt="location" class="icon"></i></div>
+                    <div class="text-icon">1, Crescent road, off Badagry expressway, Lagos.</div>
+                </div>
+                <div class="icons">
+                    <div><i class="phone"><img src="./images/icon-phone.svg" alt="phone" class="icon"></i></div>
+                    <div class="text-icon">Phone: +1-543-123-4567</div>
+                </div>
+                <div class="icons">
+                    <div><i class="mail"><img src="./images/icon-email.svg" alt="email" class="icon"></i></div>
+                    <div class="text-icon">ordereat@gmail.com</div> 
+                </div>
+        
+            </div> 
+           
+            <div class="item">
+                <a href="#">About Us</a>
+                <a href="#">Jobs</a>
+                <a href="#">Press</a>
+                <a href="#">Blog</a>
+            </div>
+  
+            <div class="item">
+                <a href="#">Contact Us</a>
+                <a href="#">Terms</a>
+                <a href="#">Privacy</a>
+            </div>
+            <div class="socials">
+                <div class="social-items"><i class="fab icons fa-facebook fa-2x"></i></div>  
+                <div class="social-items"><i class="fab icons fa-twitter fa-2x"></i></div>  
+                <div class="social-items"><i class="fab icons fa-instagram fa-2x"></i></div>  
+            </div> 
+            
+        </div>
+        <p class="last">&copy; 2020 OrderEat. Deveoped by Ezike Kodi </p>
+    </section>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("links");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } 
+            else {
+                x.style.display = "block";
+            }
+        }
+    </script>
+</body>
+</html>

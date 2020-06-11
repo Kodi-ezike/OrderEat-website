@@ -1,0 +1,300 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Raleway', sans-serif;
+   
+}
+.container1,.container2{
+    display: flex;
+    flex-wrap: wrap;    
+}
+.container1{
+    background-image:url(app-background.jpg);
+    background-position: center; 
+    background-size: cover;
+    background-repeat: no-repeat; 
+    height: 100%; 
+     width: 100%;
+}
+.container2{
+    background: linear-gradient(to right, white, rgb(224, 224, 247));
+
+}
+header{
+    background-color: orange;
+    padding: 0 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+header li{
+    display: inline;
+    line-height: 50px;
+    margin: 0 10px;
+}
+header a{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 50px;
+    color: rgb(27, 26, 26);
+    text-shadow: 1px 1px 1px gray;
+    font-family: 'Goudy Bookletter 1911', serif;
+}
+#links{display: block;}
+.hamburger{
+    display: none;
+}
+h1{
+    line-height: 50px;
+    color: rgb(27, 26, 26);
+    text-shadow: 1px 1px 1px gray;
+    font-family: 'Goudy Bookletter 1911', serif;
+    
+}
+p{
+    line-height: 30px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-weight: bolder;
+    color: black;
+    text-shadow: -1px -1px 1px gray;
+    font-family: 'Raleway', sans-serif;
+}
+.order{
+    font-size: 50px;
+    line-height: 50px;
+}
+.one{
+    font-size: 60px;
+    color: orange;
+    line-height: 70px;
+    font-family: 'Goudy Bookletter 1911', serif;
+}
+.two{
+    color: orange;
+    font-size: 30px;
+}
+.pic{
+    display: none;
+}
+.text{
+    width: 50%;
+    margin-top: 10rem;
+    margin-left: 3rem;
+    
+}
+
+.image{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    
+}
+.desktop-image{
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+    
+}
+.app-img{
+    width: 150px;
+    height: 200px;
+    margin-right: 20px;
+    margin-top: -4rem;
+}
+h2{
+    font-size: 30px;
+    text-align: center;
+    color: orange;
+}
+#testimonials{
+    background: linear-gradient(to right, white, rgb(224, 224, 247));
+}
+.container3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    
+}
+.people{
+    padding: 1rem;
+    width: 300px;
+    height: 150px;
+    background-color:rgb(207, 207, 255) ;
+    border-radius: 30px;
+    margin: 2rem 1rem;
+}
+#contact{
+    background-color: orange;
+}
+.container4{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 3rem;
+}
+.footer-logo{
+    font-size: 30px;
+    padding: 3rem;
+}
+
+.lorem{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.text-icon{
+    color: black;
+}
+.icon{
+    margin-right: 10px;
+}
+.icons{
+    color: white;
+    line-height: 1.5 ;
+    display: flex;
+    margin-bottom: 1rem;
+
+}
+.item{
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    line-height: 2.0;
+    
+    
+}
+.item a{
+    color: black;
+    text-decoration: none;
+}
+
+
+.socials{
+    width: 20%;
+    display: flex;
+}
+.social-items{
+    margin-right: 10px;
+}
+.last{
+    font-size: 12px;
+    text-align: center;
+}
+@media screen and (max-width:770px){ 
+header{
+    overflow: hidden;
+  background-color: orange;
+  position: relative;
+ padding: 0 2rem;
+}    
+.logo{
+    padding: 0;
+    
+}
+#links{
+    display: none;
+    
+}
+
+/* Style navigation menu links */
+header a {
+    color: white;
+    padding: 15px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+   
+    text-align: center;
+    line-height: 20px;
+}
+header ul{
+    
+    padding: 2rem 0;
+    transition: all .5s;
+    width: 100vw;
+}
+#links a{
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+}
+header li{
+    line-height: 10px;
+    margin: 0 10px;
+}
+/* Style the hamburger menu */
+header a.hamburger {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}  
+/* Add a grey background color on mouse-over */
+header a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.hamburger{
+    display: block;
+}
+.pic{
+    display: block;
+    margin-bottom: 2rem;
+}
+
+h1{
+    padding: 0 1rem;
+}
+p{
+    font-size: 20px;
+    text-align: center;
+}
+.desktop-image{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+.mobile-image{
+    width: 100%;
+    height: 100%;
+    margin-top: 2rem;
+}
+.image{
+    display: none;
+}
+.text{
+    width: 100%;
+    padding: 2rem 1rem;
+    margin: auto;
+}
+.app{
+    text-align: center;
+}
+.app-img{
+    width: 120px;
+    height: 200px;
+    margin-right: 10px;
+    margin-top: -4rem;
+}
+.footer-logo,.container4{
+    padding: 1.5rem;
+    margin: 0;
+}
+
+.lorem,.item,.socials{
+   width: 100%;
+   margin-bottom: 20px;
+}
+.socials{
+    display: flex;
+    justify-content: center;
+}
+
+}
